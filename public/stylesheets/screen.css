@@ -81,6 +81,29 @@ a img {
   border: none;
 }
 
+/* line 1, ../../app/stylesheets/partials/_layout.sass */
+#header {
+  background: #1b3069;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+/* line 6, ../../app/stylesheets/partials/_layout.sass */
+#header #inside_header {
+  width: 980px;
+  margin: 0 auto;
+}
+/* line 9, ../../app/stylesheets/partials/_layout.sass */
+#header #inside_header .logo {
+  padding: 20px 0 0 0;
+}
+
+/* line 13, ../../app/stylesheets/partials/_layout.sass */
+#container {
+  width: 980px;
+  margin: 0 auto;
+}
+
 /* line 39, ../../../../.rvm/gems/ree-1.8.7-2011.03@truthcomm.com/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 body {
   line-height: 1.5;
