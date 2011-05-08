@@ -194,8 +194,9 @@ body {
 #keycontent .about {
   float: left;
   width: 400px;
+  margin: 40px 60px 40px 40px;
 }
-/* line 25, ../../app/stylesheets/partials/_index.sass */
+/* line 26, ../../app/stylesheets/partials/_index.sass */
 #keycontent .quote {
   float: left;
   width: 400px;
