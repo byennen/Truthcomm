@@ -186,6 +186,22 @@ body {
   padding: 0px 5px 5px 10px;
 }
 
+/* line 20, ../../app/stylesheets/partials/_index.sass */
+#keycontent {
+  overflow: hidden;
+}
+/* line 22, ../../app/stylesheets/partials/_index.sass */
+#keycontent .about {
+  float: left;
+  width: 400px;
+}
+/* line 25, ../../app/stylesheets/partials/_index.sass */
+#keycontent .quote {
+  float: left;
+  width: 400px;
+  margin: 40px;
+}
+
 /* line 39, ../../../../.rvm/gems/ree-1.8.7-2011.03@truthcomm.com/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 body {
   line-height: 1.5;
