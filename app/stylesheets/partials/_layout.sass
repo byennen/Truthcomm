@@ -1,3 +1,5 @@
+body
+  background: #eee
 #header
   background: #1b3069
   height: 100px
@@ -8,8 +10,38 @@
     margin: 0 auto
     .logo
       padding: 20px 0 0 0
+      width: 300px
+      float: left
+    .menu
+      float: right
+      margin: 40px 0 0 0
+      ul
+      li
+        display: inline
+        color: white
+        padding: 0 0 0 30px
+        a
+          font-size: 15px
+          color: white
+          text-decoration: none
+          &:hover
+            text-decoration: underline
 
 
 #container
   width: 980px
   margin: 0 auto
+  #content
+    background: white
+    padding: 0 0 20px
+    border-bottom: 2px solid #1b3069
+    .inside
+      padding: 10px 20px
+    
+#footer
+  width: 980px
+  margin: 0 auto
+  .copyright
+    text-align: right
+    padding: 5px 5px 0 0
+    color: #919191
