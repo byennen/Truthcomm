@@ -140,14 +140,21 @@ body {
 /* line 38, ../../app/stylesheets/partials/_layout.sass */
 #container #content .inside {
   padding: 10px 20px;
+  overflow: auto;
+}
+/* line 41, ../../app/stylesheets/partials/_layout.sass */
+#container #content .picture_page {
+  border: 5px solid #cccccc;
+  margin: 20px;
+  float: right;
 }
 
-/* line 41, ../../app/stylesheets/partials/_layout.sass */
+/* line 45, ../../app/stylesheets/partials/_layout.sass */
 #footer {
   width: 980px;
   margin: 0 auto;
 }
-/* line 44, ../../app/stylesheets/partials/_layout.sass */
+/* line 48, ../../app/stylesheets/partials/_layout.sass */
 #footer .copyright {
   text-align: right;
   padding: 5px 5px 0 0;
