@@ -113,7 +113,7 @@ body {
 #header #inside_header .menu li {
   display: inline;
   color: white;
-  padding: 0 0 0 30px;
+  padding: 0 0 0 20px;
 }
 /* line 23, ../../app/stylesheets/partials/_layout.sass */
 #header #inside_header .menu li a {
@@ -191,16 +191,12 @@ body {
   overflow: hidden;
 }
 /* line 22, ../../app/stylesheets/partials/_index.sass */
-#keycontent a {
-  color: black;
-}
-/* line 24, ../../app/stylesheets/partials/_index.sass */
 #keycontent .about {
   float: left;
   width: 400px;
   margin: 40px 60px 40px 40px;
 }
-/* line 28, ../../app/stylesheets/partials/_index.sass */
+/* line 26, ../../app/stylesheets/partials/_index.sass */
 #keycontent .speed {
   float: left;
   height: 103px;
@@ -208,12 +204,12 @@ body {
   position: relative;
   width: 400px;
 }
-/* line 34, ../../app/stylesheets/partials/_index.sass */
+/* line 32, ../../app/stylesheets/partials/_index.sass */
 #keycontent .speed img {
   position: relative;
   z-index: 999;
 }
-/* line 37, ../../app/stylesheets/partials/_index.sass */
+/* line 35, ../../app/stylesheets/partials/_index.sass */
 #keycontent .speed .test {
   height: 160px;
   overflow: hidden;
