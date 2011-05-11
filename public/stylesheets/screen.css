@@ -88,7 +88,7 @@ body {
 
 /* line 3, ../../app/stylesheets/partials/_layout.sass */
 #header {
-  background: #1b3069;
+  background: black;
   height: 100px;
   margin: 0;
   padding: 0;
@@ -135,7 +135,7 @@ body {
 #container #content {
   background: white;
   padding: 0 0 20px;
-  border-bottom: 2px solid #1b3069;
+  border-bottom: 2px solid black;
 }
 /* line 38, ../../app/stylesheets/partials/_layout.sass */
 #container #content .inside {
@@ -191,16 +191,34 @@ body {
   overflow: hidden;
 }
 /* line 22, ../../app/stylesheets/partials/_index.sass */
+#keycontent a {
+  color: black;
+}
+/* line 24, ../../app/stylesheets/partials/_index.sass */
 #keycontent .about {
   float: left;
   width: 400px;
   margin: 40px 60px 40px 40px;
 }
-/* line 26, ../../app/stylesheets/partials/_index.sass */
-#keycontent .quote {
+/* line 28, ../../app/stylesheets/partials/_index.sass */
+#keycontent .speed {
   float: left;
+  height: 103px;
+  margin: 40px 0 0 80px;
+  position: relative;
   width: 400px;
-  margin: 40px;
+}
+/* line 34, ../../app/stylesheets/partials/_index.sass */
+#keycontent .speed img {
+  position: relative;
+  z-index: 999;
+}
+/* line 37, ../../app/stylesheets/partials/_index.sass */
+#keycontent .speed .test {
+  height: 160px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
 }
 
 /* line 39, ../../../../.rvm/gems/ree-1.8.7-2011.03@truthcomm.com/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */

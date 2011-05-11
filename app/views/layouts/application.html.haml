@@ -19,7 +19,7 @@
     #header
       #inside_header
         .logo
-          = image_tag('logo.png')
+          = link_to image_tag('logo.png'), root_path
         .menu
           %ul
             %li= link_to "Home", root_path

@@ -1,31 +1,40 @@
 = image_tag('main.jpg')
 #keymenu
   .container
-    = image_tag('keymenu/customer.jpg')
+    = image_tag('keymenu/broker.jpg')
     .content
-      = link_to "Customer Wall", "#"
-      %p Get a hassle-free quote within 2 business days.
-  .container
-    = image_tag('keymenu/energy.jpg')
-    .content
-      = link_to "Energy Services", energy_path
-      %p Get a hassle-free quote within 2 business days.
+      = link_to "Our Services", broker_path
+      %p 
+        What we can offer
+        %br
+        to you.
   .container
     = image_tag('keymenu/phone.jpg')
     .content
-      = link_to "Phone Hardware", phone_path
-      %p Get a hassle-free quote within 2 business days.
+      = link_to "Telecom Brokers", phone_path
+      %p 
+        Why use a broker vs.
+        %br 
+        a direct rep.
   .container
-    = image_tag('keymenu/broker.jpg')
+    = image_tag('keymenu/energy.jpg')
     .content
-      = link_to "Why use a Broker", broker_path
-      %p Get a hassle-free quote within 2 business days.
+      = link_to "Request a Quote", energy_path
+      %p
+        Get a hassle free
+        %br
+        quote within 24 hours.
+  .container
+    = image_tag('keymenu/customer.jpg')
+    .content
+      = link_to "Customer Wall", "#"
+      %p See what our customer's comments are.
 #keycontent
   .about
     %h2 Truthcomm
     %p It is the business of a telecom broker to help you explore what is available to meet your telecommunication and internet needs.  We want to assist you in looking at the offerings of a variety of carriers, so you can make a service and pricing decision that best fits the needs of your company.  
-  .quote
-    %h2 What Our Customers Are Saying
-    %p Quote here
-    %span Name here
+  .speed
+    = image_tag('speedtest.png')
+    .test
+      %script{:src => "http://www.internetfrog.com/scripts/widgets/speedtest_widget.php", :type => "text/javascript"}
     
