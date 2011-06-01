@@ -2,7 +2,7 @@
   %ul
     - @comments.each do |comment|
       %p= comment.message
-      %span= comment.author
+      %strong= comment.author
       %br
       %span= comment.company_name
       %br
