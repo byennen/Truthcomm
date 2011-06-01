@@ -1,7 +1,7 @@
 class CommentsController < ApplicationController
 
   def index
-    @comments = Comment.all
+    @comments = Comment.approved.all
 
     respond_to do |format|
       format.html # index.html.erb
@@ -51,7 +51,7 @@ class CommentsController < ApplicationController
     @comment.destroy
 
     respond_to do |format|
-      format.html { redirect_to(comments_url) }
+      format.html { redirect_to(admin_comments_path) }
       format.xml  { head :ok }
     end
   end

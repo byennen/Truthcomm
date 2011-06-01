@@ -10,15 +10,12 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110601065952) do
-
-  create_table "admin_comments", :force => true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
+ActiveRecord::Schema.define(:version => 20110601063059) do
 
   create_table "comments", :force => true do |t|
     t.string   "author"
+    t.string   "company_name"
+    t.string   "title"
     t.text     "message"
     t.boolean  "approved"
     t.datetime "created_at"
