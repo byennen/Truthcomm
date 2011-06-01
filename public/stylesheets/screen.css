@@ -233,7 +233,7 @@ body {
 #client-logos .client {
   clear: both;
   margin: 20px 0;
-  overflow: auto;
+  overflow: hidden;
 }
 /* line 47, ../../app/stylesheets/partials/_index.sass */
 #client-logos .client .image {
