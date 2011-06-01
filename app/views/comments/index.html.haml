@@ -1,0 +1,8 @@
+.inside
+  %ul
+    - @comments.each do |comment|
+      %p= comment.message
+      %span= comment.author
+
+  %br
+  = link_to 'New Comment', new_comment_path

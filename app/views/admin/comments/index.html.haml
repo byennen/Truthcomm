@@ -1,0 +1,16 @@
+.inside
+  %h1 Listing comments
+  %table
+    %tr
+      %th Message
+      %th Author
+      %th Approved
+      %th
+      %th
+    - @comments.each do |comment|
+      %tr
+        %td= comment.message
+        %td= comment.author
+        %td= comment.approved
+        %td= link_to 'Edit', edit_admin_comment_path(comment)
+        %td= link_to 'Destroy', comment, :confirm => 'Are you sure?', :method => :delete

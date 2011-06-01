@@ -1,5 +1,12 @@
 TruthcommCom::Application.routes.draw do
   
+  get "comments/index"
+
+  resources :comments
+  namespace :admin do
+    resources :comments
+  end 
+
   match 'contact' => 'pages#contact'
   match 'carriers' => 'pages#carriers'
   match 'about' => 'pages#about'
