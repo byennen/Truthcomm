@@ -1,3 +1,18 @@
 .inside
-  %h1 Contact
   = image_tag('contact_us.jpg', :class => "picture_page")
+  .contact
+    %p
+      %strong Phone: 773-596-9910
+      %br
+      Fax: 773-326-0852 
+    %p 
+      %strong 1831 W Belmont Ave Unit 2
+      %br
+      Chicago, IL 60657
+    %p 
+      Support: 
+      = link_to "troubletracker@truthcomm.com", :mailto => "troubletracker@truthcomm.com"
+      %br
+      Email:
+      = link_to "contact@truthcomm.com", :mailto => "contact@truthcomm.com"
+  

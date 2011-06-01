@@ -252,6 +252,16 @@ body {
   margin: 10px 0 0 50px;
 }
 
+/* line 57, ../../app/stylesheets/partials/_index.sass */
+.contact {
+  margin: 20px 0 0 0;
+}
+/* line 59, ../../app/stylesheets/partials/_index.sass */
+.contact p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
 /* line 39, ../../../../.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 body {
   line-height: 1.5;
