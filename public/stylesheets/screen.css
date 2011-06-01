@@ -232,22 +232,24 @@ body {
 /* line 43, ../../app/stylesheets/partials/_index.sass */
 #client-logos .client {
   clear: both;
+  margin: 20px 0;
+  overflow: auto;
 }
-/* line 45, ../../app/stylesheets/partials/_index.sass */
+/* line 47, ../../app/stylesheets/partials/_index.sass */
 #client-logos .client .image {
   float: left;
   width: 170px;
   height: 100px;
 }
-/* line 49, ../../app/stylesheets/partials/_index.sass */
+/* line 51, ../../app/stylesheets/partials/_index.sass */
 #client-logos .client img {
   margin: 5px;
 }
-/* line 51, ../../app/stylesheets/partials/_index.sass */
+/* line 53, ../../app/stylesheets/partials/_index.sass */
 #client-logos .client p {
   float: left;
   width: 76%;
-  margin: 0 0 0 50px;
+  margin: 10px 0 0 50px;
 }
 
 /* line 39, ../../../../.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
