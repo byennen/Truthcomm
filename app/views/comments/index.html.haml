@@ -3,6 +3,10 @@
     - @comments.each do |comment|
       %p= comment.message
       %span= comment.author
+      %br
+      %span= comment.company_name
+      %br
+      %span= comment.title
 
   %br
   = link_to 'New Comment', new_comment_path
