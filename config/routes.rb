@@ -1,5 +1,7 @@
 TruthcommCom::Application.routes.draw do
   
+  resources :quotes
+
   get "comments/index"
 
   resources :comments
