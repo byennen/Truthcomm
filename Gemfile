@@ -9,7 +9,6 @@ gem 'compass', '0.11.1'
 gem 'rails3-generators'
 gem 'mail'
 
-
 group :development do
   gem 'heroku'
   gem 'taps'
