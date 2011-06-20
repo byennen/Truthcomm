@@ -5,7 +5,7 @@ gem 'rake', '0.8.7'
 gem 'sqlite3'
 gem 'haml'
 gem 'jquery-rails'
-gem 'compass', '>= 0.10.6'
+gem 'compass', '0.11.1'
 gem 'rails3-generators'
 gem 'mail'
 
