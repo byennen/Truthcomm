@@ -1,3 +1,11 @@
 class QuoteMailer < ActionMailer::Base
-  default :from => "from@example.com"
+  default :from => "website@truthcomm.com"
+  
+  def quote_notification(sender)
+    @sender = sender
+    mail(:to => "byennen@gmail.com",
+         :from => sender.email,
+         :subject => "New Quote")
+  end
+  
 end

@@ -1,6 +1,7 @@
 TruthcommCom::Application.routes.draw do
   
-  resources :quotes
+  resources :quotes, :only => [:new, :create]
+  match '/thankyou', :to => 'quotes#thankyou', :as => 'thankyou'
 
   get "comments/index"
 
@@ -12,7 +13,7 @@ TruthcommCom::Application.routes.draw do
   match 'contact' => 'pages#contact'
   match 'carriers' => 'pages#carriers'
   match 'about' => 'pages#about'
-  match 'quote' => 'pages#quote'
+  #match 'quote' => 'pages#quote'
   match 'services' => 'pages#services'
   match 'energy-services' => 'pages#energy', :as => 'energy'
   match 'phone-hardware' => 'pages#phone', :as => 'phone'
