@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110620213932) do
+ActiveRecord::Schema.define(:version => 20110601063059) do
 
   create_table "comments", :force => true do |t|
     t.string   "author"
@@ -18,20 +18,6 @@ ActiveRecord::Schema.define(:version => 20110620213932) do
     t.string   "title"
     t.text     "message"
     t.boolean  "approved"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "quotes", :force => true do |t|
-    t.string   "name"
-    t.string   "company_name"
-    t.string   "phone"
-    t.string   "email"
-    t.string   "address"
-    t.integer  "phone_lines"
-    t.string   "current_internet"
-    t.string   "current_carrier"
-    t.text     "message"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
