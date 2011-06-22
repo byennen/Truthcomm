@@ -1,18 +1,26 @@
 %strong Name:
 = @sender.name
+%br
 %strong Company Name:
-= @sender :company_name
-%strong Email
-= @sender :email
-%strong Phone
-= @sender :phone
-%strong Address
-= @sender :address
-%strong Phone Lines
-= @sender :phone_lines
-%strong Current Internet
-= @sender :current_internet
-%strong Current Carrier
-= @sender :current_carrier
-%strong Message
-= @sender :message
+= @sender.company_name
+%br
+%strong Email:
+= @sender.email
+%br
+%strong Phone:
+= @sender.phone
+%br
+%strong Address:
+= @sender.address
+%br
+%strong Phone Lines:
+= @sender.phone_lines
+%br
+%strong Current Internet:
+= @sender.current_internet
+%br
+%strong Current Carrier:
+= @sender.current_carrier
+%br
+%strong Message:
+= @sender.message
