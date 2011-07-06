@@ -164,19 +164,37 @@ body {
 }
 
 /* line 69, ../../app/stylesheets/partials/_layout.sass */
-#comment_link {
-  float: left;
+#comments a {
+  color: black !important;
+}
+/* line 71, ../../app/stylesheets/partials/_layout.sass */
+#comments a:hover {
+  color: #0099ff !important;
+}
+/* line 73, ../../app/stylesheets/partials/_layout.sass */
+#comments #link {
+  float: right;
   width: 200px;
   font-size: 20px;
   font-weight: bold;
+  clear: both;
+}
+/* line 79, ../../app/stylesheets/partials/_layout.sass */
+#comments li {
+  margin: 0 0 20px 0;
+  list-style: none;
+}
+/* line 82, ../../app/stylesheets/partials/_layout.sass */
+#comments p {
+  font-style: italic;
 }
 
-/* line 75, ../../app/stylesheets/partials/_layout.sass */
+/* line 85, ../../app/stylesheets/partials/_layout.sass */
 #footer {
   width: 980px;
   margin: 0 auto;
 }
-/* line 78, ../../app/stylesheets/partials/_layout.sass */
+/* line 88, ../../app/stylesheets/partials/_layout.sass */
 #footer .copyright {
   text-align: right;
   padding: 5px 5px 0 0;

@@ -1,13 +1,15 @@
 .inside
-  = link_to 'Add a Comment', new_comment_path, :id => 'comment_link'
-  %br
-  = image_tag('comments.jpg', :class => "picture_page")
-  %br
-  %ul
-    - @comments.each do |comment|
-      %p= comment.message
-      %strong= comment.author
-      %br
-      %span= comment.company_name
-      %br
-      %span= comment.title
+  #comments
+    = image_tag('comments.jpg', :class => "picture_page")
+    %br
+    = link_to 'Add a Comment', new_comment_path, :id => 'link'
+    %br
+    %ul
+      - @comments.each do |comment|
+        %li
+          %p= comment.message
+          %strong= comment.author
+          %br
+          %span= comment.company_name
+          %br
+          %span= comment.title
