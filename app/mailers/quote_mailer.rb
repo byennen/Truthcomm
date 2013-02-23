@@ -3,7 +3,7 @@ class QuoteMailer < ActionMailer::Base
   
   def quote_notification(sender)
     @sender = sender
-    mail(:to => "byennen@gmail.com",
+    mail(:to => "zmau@truthcomm.com",
          :from => sender.email,
          :subject => "New Quote")
   end
